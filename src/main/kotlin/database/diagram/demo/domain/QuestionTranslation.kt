@@ -7,5 +7,6 @@ class QuestionTranslation(
         var sourceLanguage: Language,
         var targetLanguage: Language,
         var finalChoice: TranslationChoice,
-        var firstTranslations: Set<TranslationPart>
+        var firstTranslations: Set<TranslationPart>,
+        var possibleAnswers: AnswerSet
 )
